@@ -1,0 +1,30 @@
+{
+  "name": "travel-wishlist",
+  "version": "1.0.0",
+  "description": "school exercise",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node /src/index.js",
+    "dev": "nodemon /src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Valeprogr/travel-wishlist.git"
+  },
+  "author": "valentina vittoria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Valeprogr/travel-wishlist/issues"
+  },
+  "homepage": "https://github.com/Valeprogr/travel-wishlist#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
