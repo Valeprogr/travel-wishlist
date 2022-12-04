@@ -1,4 +1,4 @@
-import CountryServices from "../services/CountryServices";
+import CountryServices from "../services/CountryServices.js";
 
 class CountryControllers{
     async create(req,res){
@@ -21,4 +21,4 @@ class CountryControllers{
     }
 }
 
-export default CountryControllers();
+export default new CountryControllers();

@@ -1,4 +1,4 @@
-import Country from "../models/Country";
+import Country from "../models/Country.js";
 
 class CountryServices {
     //create new country for the list
